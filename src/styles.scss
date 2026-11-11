@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+/* Global styles. The site is dark-only: no prefers-color-scheme branch anywhere. */
+
+:root {
+  /* Tells the UA to render scrollbars, form controls and the default
+     canvas in dark. Without this you get light scrollbars and a white
+     flash before the first paint. */
+  color-scheme: dark;
+
+  /* Placeholder tokens — swap for the real palette. */
+  --bg: #0b0c0e;
+  --fg: #e8e8ea;
+  --muted: #9a9aa2;
+}
+
+html {
+  background: var(--bg);
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+}
