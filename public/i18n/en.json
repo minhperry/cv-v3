@@ -1,0 +1,31 @@
+{
+  "skills": {
+    "groups": {
+      "frontend": "Frontend & Mobile",
+      "backend": "Backend & Data",
+      "test-release": "Test & Release",
+      "ops": "Operations & Self-Hosting",
+      "tools": "Tools"
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "desc": "I have worked on a variety of projects, from small personal projects to large-scale applications. Here are some of the projects I have worked on.",
+    "skyblock": {
+      "title": "SkyBlock Website",
+      "desc": "A collection of simulators and calculators for game mechanics in \"Hypixel SkyBlock\", built and run on my own, with around 200 monthly visitors. Angular frontend with Tailwind and PrimeNG, plus a small Express backend that proxies requests to the Hypixel API."
+    },
+    "homelab": {
+      "title": "Homelab / Self-hosted Infrastructure",
+      "desc": "A local Debian server and a Hetzner VPS running several self-hosted services, including Git hosting and photo and media management. I run the Docker containers, Caddy reverse proxies and Cloudflare setup, secure the public services, and handle maintenance and troubleshooting myself."
+    },
+    "skyhanni": {
+      "title": "SkyHanni — Contributor",
+      "desc": "Contributed features and bug fixes to \"SkyHanni\", a community-driven Minecraft mod written in Kotlin, working in an existing codebase and responding to player-facing issues and community feedback."
+    },
+    "swp": {
+      "title": "Software-Praktikum",
+      "desc": "A university lab course at TU Dortmund in Kotlin with the BGW framework. First a card game built on my own, then the board game \"Bonsai\" as a team, going through UML design, implementation with daily commits, testing with JUnit, and deployment."
+    }
+  }
+}
