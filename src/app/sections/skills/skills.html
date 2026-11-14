@@ -1,3 +1,20 @@
-<h2>Skills</h2>
+<h2>Tech stack and skills</h2>
 
+<h2>Tools & Konzepte die ich in Projekten nutze</h2>
+
+@for (groupKey of keys(); track $index) {
+  <div class="skill-group">
+    <h4 class="skill-header">{{ `skills.groups.${groupKey}` | translate }}</h4>
+    <div class="skill-list">
+      @for (skillKey of groups()[groupKey]; track skillKey) {
+        @let skillDetail = SKILLS[skillKey];
+        <chip [basic]="skillDetail.basic">
+          {{ skillDetail.name }}
+        </chip>
+      } 
+    </div>
+  </div>
+}
+
+<!-- following jeremy's structure -->
 <p>i am a shitass loser chud</p>

@@ -1,0 +1,21 @@
+.skill-list {
+  display: flex;
+  padding: .25rem;
+  margin: .25rem;
+  gap: .5rem;
+  border: 1px solid red;
+}
+
+.skill-header {
+  margin: 0 0 1rem 0;
+
+  &::before {
+    content: ">_ ";
+  }
+}
+
+.skill-group {
+  padding: 1rem;
+  margin: 2rem;
+  border: 1px purple solid;
+}
