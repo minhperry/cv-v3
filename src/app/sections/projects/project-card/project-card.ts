@@ -11,4 +11,5 @@ import { ProjectCardItem } from "../../../content/projects/projects.type";
 })
 export class ProjectCard {
   project = input.required<ProjectCardItem>();
+  textRight = input<boolean>(false);
 }
