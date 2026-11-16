@@ -1,0 +1,14 @@
+@let proj = project();
+<div>
+  <img [src]="proj.imgUrl" />
+
+  <h2>{{ proj.titleKey | translate }}</h2>
+  <p>{{ proj.descKey | translate }}</p>
+
+  @if (proj.links) {
+    @for (link of proj.links; track link.url) {
+      <p-link [to]="link.url" [label]="link.label" />
+    }
+  }
+
+</div>
