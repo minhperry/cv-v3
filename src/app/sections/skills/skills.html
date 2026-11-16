@@ -8,9 +8,9 @@
     <div class="skill-list">
       @for (skillKey of groups()[groupKey]; track skillKey) {
         @let skillDetail = SKILLS[skillKey];
-        <chip [basic]="skillDetail.basic">
+        <p-chip [basic]="skillDetail.basic">
           {{ skillDetail.name }}
-        </chip>
+        </p-chip>
       } 
     </div>
   </div>

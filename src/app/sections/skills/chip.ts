@@ -1,7 +1,7 @@
 import { Component, input } from "@angular/core";
 
 @Component({
-  selector: 'chip',
+  selector: 'p-chip',
   template: `
     <ng-content />
   `,
